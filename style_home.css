@@ -37,11 +37,11 @@ body{
 }
 #card2 .card{
     border:none;
-    transition: 1s;
+    transition: 2s;
 }
-/* #card2 .card:hover{
-    -web;
-} */
+#card2 .card:hover{
+    transform: rotate(360deg);
+}
 
 #konten4{
     background-color: #00acee;
@@ -50,4 +50,33 @@ body{
 #konten4 .btn{
     color: #fff;
     border-color: #fff;
+}
+.carousel-item img{
+    width: 85px;
+    height: 60px;
+    border:none;
+    transition: 1s;
+}
+.carousel-item img:hover{
+    transform: rotate(360deg);
+}
+#talk{
+    background-color:#fff;
+    margin-top: -35px;
+}
+#talk h2{
+    font-weight: bold;
+}
+#talk a{
+    border-color:#00acee;
+    color: #00acee;
+}
+#talk a:hover{
+    background-color: #00acee;
+    color:#000;
+    font-weight: bold;
+}
+#footer{
+    margin-top: -35px;
+    background-color: #00acee;
 }
