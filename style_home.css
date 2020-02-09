@@ -26,7 +26,28 @@ body{
 }
 #konten3{
     background-color: #00acee;
-    height: -20px;
+    height: 100px;
 }
+#card2 .card img{
+    width:60px;
+    border:none;
+}
+#card2{
+    line-height:2rem;   
+}
+#card2 .card{
+    border:none;
+    transition: 1s;
+}
+/* #card2 .card:hover{
+    -web;
+} */
 
-
+#konten4{
+    background-color: #00acee;
+    color: #fff;
+}
+#konten4 .btn{
+    color: #fff;
+    border-color: #fff;
+}
