@@ -78,3 +78,7 @@ form input+i {
     background-size: cover;
     height: 340px;
 }
+
+#Enter email {
+    width: 200px;
+}
