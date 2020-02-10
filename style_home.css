@@ -1,0 +1,101 @@
+body{
+    /* font-size: 18px; */
+    font-family: 'Roboto', sans-serif;
+
+}
+.navbar{
+    background-color: #00acee;
+}
+.nav-item, .navbar-brand{
+    color:#fff !important;
+    font-weight: bold;
+}
+#konten1{
+    background-color: #00acee;
+    height: 620px;
+}
+.card-group{
+    border:none;
+    /* margin-right: 10px; */
+}
+#konten2{
+    margin-top: -30px;
+    background-color: #fff;
+    /* height: 600px; */
+    /* right: -20px; */
+}
+#konten3{
+    background-color: #00acee;
+    height: 100px;
+}
+#card2 .card img{
+    width:60px;
+    border:none;
+}
+#card2{
+    line-height:2rem;   
+}
+#card2 .card{
+    border:none;
+    transition: 2s;
+}
+#card2 .card:hover{
+    transform: rotate(360deg);
+}
+
+#konten4{
+    background-color: #00acee;
+    color: #fff;
+}
+#konten4 .btn{
+    color: #fff;
+    border-color: #fff;
+}
+.carousel-item img{
+    width: 85px;
+    height: 60px;
+    border:none;
+    transition: 1s;
+}
+.carousel-item img:hover{
+    transform: rotate(360deg);
+}
+#talk{
+    background-color:#fff;
+    margin-top: -35px;
+}
+#talk h2{
+    font-weight: bold;
+}
+#talk a{
+    border-color:#00acee;
+    color: #00acee;
+}
+#talk a:hover{
+    background-color: #00acee;
+    color:#000;
+    font-weight: bold;
+}
+#footer{
+    margin-top: -35px;
+    background-color: #00acee;
+    margin-bottom: -30px;
+}
+#footer .text-muted{
+    color:#fff !important;
+}
+#footer a{
+    text-decoration: none;
+}#footer strong{
+    color:#000;
+}
+.btn1{
+    float: right;
+    /* transition: 2s; */
+}
+.btn1:hover{
+    border-radius: 40px;
+    transform: rotate(350deg);
+    /* width: 20px; */
+    margin-left: 20px;
+}
