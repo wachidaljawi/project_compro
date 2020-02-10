@@ -91,7 +91,7 @@ body{
 }
 .btn1{
     float: right;
-    transition: 2s;
+    /* transition: 2s; */
 }
 .btn1:hover{
     border-radius: 40px;
