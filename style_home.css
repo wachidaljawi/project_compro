@@ -89,3 +89,13 @@ body{
 }#footer strong{
     color:#000;
 }
+.btn1{
+    float: right;
+    transition: 2s;
+}
+.btn1:hover{
+    border-radius: 40px;
+    transform: rotate(350deg);
+    /* width: 20px; */
+    margin-left: 20px;
+}

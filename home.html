@@ -291,12 +291,22 @@
                 </div>
             </div>
         </div>
+        <div class="fixed-bottom">
+        <button class="btn1 btn btn-warning" onclick="topFunction()" id="myBtn" title="Go to top">Up</button>
+    </div>
     </div>
     <!-- footer akhir -->
+
 
 
     <script type="text/JavaScript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/JavaScript" src="js/popper.min.js"></script>
     <script type="text/JavaScript" src="js/bootstrap.min.js"></script>
+    <script>
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        };
+    </script>
 </body>
 </html>
