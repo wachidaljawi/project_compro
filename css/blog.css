@@ -1,3 +1,18 @@
+.navbar {
+    background-color: #00acee;
+}
+
+.nav-item,
+.navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.blog {
+    background-color: #00acee;
+    height: 400px;
+}
+
 .image .box {
     height: 60px;
     width: 60px;
@@ -12,7 +27,7 @@
 
 }
 
-.jumbotron {
+#awal {
     background-image: url(../img/gambar1.jpg);
     background-size: cover;
     height: 340px;
@@ -81,4 +96,22 @@ form input+i {
 
 #Enter email {
     width: 200px;
+}
+
+#footer {
+    margin-top: -35px;
+    background-color: #00acee;
+    margin-bottom: -30px;
+}
+
+#footer .text-muted {
+    color: #fff !important;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+#footer strong {
+    color: #000;
 }
