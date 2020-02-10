@@ -79,4 +79,13 @@ body{
 #footer{
     margin-top: -35px;
     background-color: #00acee;
+    margin-bottom: -30px;
+}
+#footer .text-muted{
+    color:#fff !important;
+}
+#footer a{
+    text-decoration: none;
+}#footer strong{
+    color:#000;
 }
